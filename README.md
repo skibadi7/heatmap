@@ -11,16 +11,20 @@ The generated image is written to stdout in ppm format and can be converted to p
 
 ## Usage
 
-  heatmap [-c color|grey|r1,g1,b1,r2,g2,b2,...] input.csv
+```
+heatmap [-c color|grey|r1,g1,b1,r2,g2,b2,...] input.csv
+```
 
 
 ## Example Makefile
 
-  %.png : %.ppm
-  	pnmtopng $< > $@
+```
+%.png : %.ppm
+	pnmtopng $< > $@
 
-  %.ppm : %.csv
-  	heatmap $< > $@
+%.ppm : %.csv
+	heatmap $< > $@
+```
 
 
 ## License
