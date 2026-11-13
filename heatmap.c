@@ -61,7 +61,7 @@ void set_transitions_color() {
   transition_colors[10] = 1.0;
   transition_colors[11] = 0.0;
 
-  // Yellow
+  // Orange
   transition_colors[12] = 0.5;
   transition_colors[13] = 0.5;
   transition_colors[14] = 0.0;
